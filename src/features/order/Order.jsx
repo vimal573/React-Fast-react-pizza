@@ -1,5 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
 // Test ID: IIDSAT
-
 import { useLoaderData } from 'react-router-dom';
 import { getOrder } from '../../services/apiRestaurant';
 import {
@@ -30,7 +30,7 @@ function Order() {
 
         <div>
           {priority && <span>Priority</span>}
-          <span>{status} order</span>
+          <span> {status} order</span>
         </div>
       </div>
 
